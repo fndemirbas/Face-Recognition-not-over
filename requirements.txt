@@ -1,0 +1,6 @@
+
+opencv-contrib-python==4.4.0.44
+opencv-python 
+Pillow==8.0.1
+pylint==2.6.0
+PyQt5 

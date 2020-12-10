@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>301</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Yüz Tanıma</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="btClose">
+      <property name="text">
+       <string>Kapat</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btOpen">
+      <property name="text">
+       <string>Aç</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>201</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Kamera</string>
+   </property>
+   <widget class="QLabel" name="lbCamera">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>25</y>
+      <width>171</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="isim_soyisim">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>isim_soyisim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string> ali polat </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mehmet şahin </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>aylin özkan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ahmey ersoy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ümit alkan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>recep eker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sevda yılmaz</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cem korkmaz</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>melda çağlayan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>simge koyuncu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>beste söylemez</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>akın özhaseki</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>süleyman yılmaz</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>150</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>gonder</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>0</y>
+      <width>211</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
